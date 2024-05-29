@@ -25,7 +25,7 @@ function renderizarSaldo(): void {
 }
 
 const SaldoComponent = {
-  atualizar() {
+  atualizar(): void {
     renderizarSaldo();
   }
 }
